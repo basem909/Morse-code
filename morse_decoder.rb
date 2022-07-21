@@ -26,7 +26,7 @@ def decode_word(str)
   string = str.split
   arr = []
   string.each { |i| arr.push(decode_char(i).to_s) }
-  arr.join('')
+  arr.join
 end
 
 def decode_phrase(str)
